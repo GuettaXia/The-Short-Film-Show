@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/classify/classify",
+    "pages/example/example",
+    "pages/videoplay/videoplay"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "theShortFilmShow",
+    "navigationBarBackgroundColor": "black",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "classify",
+        "iconPath": "static/icons/boxes.png",
+        "selectedIconPath": "static/icons/boxes.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "home",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "profile",
+        "iconPath": "static/icons/person.png",
+        "selectedIconPath": "static/icons/person.png"
+      }
+    ]
+  },
+  "splashscreen": {
+    "autoclose": true
+  },
+  "appname": "TSFMS-uni"
+}
