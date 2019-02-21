@@ -1,10 +1,12 @@
 {
   "pages": [
+    "pages/classify/classify",
     "pages/index/index",
     "pages/profile/profile",
-    "pages/classify/classify",
     "pages/example/example",
-    "pages/videoplay/videoplay"
+    "pages/videoplay/videoplay",
+    "pages/123/123",
+    "pages/login/login"
   ],
   "subPackages": [],
   "window": {
@@ -21,19 +23,19 @@
     "list": [
       {
         "pagePath": "pages/classify/classify",
-        "text": "classify",
-        "iconPath": "static/icons/boxes.png",
-        "selectedIconPath": "static/icons/boxes.png"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "home",
+        "text": "Home",
         "iconPath": "static/icons/home.png",
         "selectedIconPath": "static/icons/home.png"
       },
       {
+        "pagePath": "pages/index/index",
+        "text": "Hot",
+        "iconPath": "static/icons/boxes.png",
+        "selectedIconPath": "static/icons/boxes.png"
+      },
+      {
         "pagePath": "pages/profile/profile",
-        "text": "profile",
+        "text": "Profile",
         "iconPath": "static/icons/person.png",
         "selectedIconPath": "static/icons/person.png"
       }

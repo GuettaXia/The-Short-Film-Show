@@ -1,6 +1,9 @@
 {
-    "pages" :[
+    "pages" : [
         //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/classify/classify"
+        },
         {
             "path" : "pages/index/index"
         },
@@ -8,13 +11,18 @@
             "path" : "pages/profile/profile"
         },
         {
-            "path" : "pages/classify/classify"
-        },
-        {
             "path" : "pages/example/example"
         },
         {
             "path" : "pages/videoplay/videoplay",
+            "style" : {}
+        },
+        {
+            "path" : "pages/123/123",
+            "style" : {}
+        },
+        {
+            "path" : "pages/login/login",
             "style" : {}
         }
     ],
@@ -31,19 +39,19 @@
         "list" : [
             {
                 "pagePath" : "pages/classify/classify",
-                "text" : "classify",
-                "iconPath" : "static/icons/boxes.png",
-                "selectedIconPath" : "static/icons/boxes.png"
-            },
-            {
-                "pagePath" : "pages/index/index",
-                "text" : "home",
+                "text" : "Home",
                 "iconPath" : "static/icons/home.png",
                 "selectedIconPath" : "static/icons/home.png"
             },
             {
+                "pagePath" : "pages/index/index",
+                "text" : "Hot",
+                "iconPath" : "static/icons/boxes.png",
+                "selectedIconPath" : "static/icons/boxes.png"
+            },
+            {
                 "pagePath" : "pages/profile/profile",
-                "text" : "profile",
+                "text" : "Profile",
                 "iconPath" : "static/icons/person.png",
                 "selectedIconPath" : "static/icons/person.png"
             }
